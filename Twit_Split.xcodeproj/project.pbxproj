@@ -109,11 +109,11 @@
 		EB9679311F8250DE00F1C3A6 = {
 			isa = PBXGroup;
 			children = (
+				8FFBB71B11FAF3F214CF7B9A /* Frameworks */,
+				2C1B1061BB96F4D84F23E6AC /* Pods */,
+				EB96793C1F8250DE00F1C3A6 /* Products */,
 				EB96793D1F8250DE00F1C3A6 /* Twit_Split */,
 				EB9679481F8250DE00F1C3A6 /* Twit_SplitTests */,
-				EB96793C1F8250DE00F1C3A6 /* Products */,
-				2C1B1061BB96F4D84F23E6AC /* Pods */,
-				8FFBB71B11FAF3F214CF7B9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,12 +129,12 @@
 		EB96793D1F8250DE00F1C3A6 /* Twit_Split */ = {
 			isa = PBXGroup;
 			children = (
-				EB9679581F82514D00F1C3A6 /* ViewModels */,
+				EB9679551F82512C00F1C3A6 /* Extension */,
 				EB9679571F82514500F1C3A6 /* Objects */,
 				EB9679561F82513A00F1C3A6 /* Service */,
-				EB9679551F82512C00F1C3A6 /* Extension */,
-				EB96793E1F8250DE00F1C3A6 /* Twit_Split.h */,
+				EB9679581F82514D00F1C3A6 /* ViewModels */,
 				EB96793F1F8250DE00F1C3A6 /* Info.plist */,
+				EB96793E1F8250DE00F1C3A6 /* Twit_Split.h */,
 			);
 			path = Twit_Split;
 			sourceTree = "<group>";
@@ -144,8 +144,8 @@
 			children = (
 				EB9679591F82526700F1C3A6 /* Helper */,
 				EB96795B1F82527B00F1C3A6 /* TwitSplit */,
-				EB9679491F8250DE00F1C3A6 /* Twit_SplitTests.swift */,
 				EB96794B1F8250DE00F1C3A6 /* Info.plist */,
+				EB9679491F8250DE00F1C3A6 /* Twit_SplitTests.swift */,
 			);
 			path = Twit_SplitTests;
 			sourceTree = "<group>";
@@ -156,6 +156,7 @@
 				EB96795C1F8252AB00F1C3A6 /* String+Trim.swift */,
 			);
 			name = Extension;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		EB9679561F82513A00F1C3A6 /* Service */ = {
@@ -164,6 +165,7 @@
 				EB9679601F82534D00F1C3A6 /* TwitSplit */,
 			);
 			name = Service;
+			path = Service;
 			sourceTree = "<group>";
 		};
 		EB9679571F82514500F1C3A6 /* Objects */ = {
@@ -172,6 +174,7 @@
 				EB96795E1F82530700F1C3A6 /* TwitObj.swift */,
 			);
 			name = Objects;
+			path = Objects;
 			sourceTree = "<group>";
 		};
 		EB9679581F82514D00F1C3A6 /* ViewModels */ = {
@@ -179,6 +182,7 @@
 			children = (
 			);
 			name = ViewModels;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		EB9679591F82526700F1C3A6 /* Helper */ = {
@@ -187,16 +191,18 @@
 				EB96795A1F82526E00F1C3A6 /* Stubs */,
 			);
 			name = Helper;
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		EB96795A1F82526E00F1C3A6 /* Stubs */ = {
 			isa = PBXGroup;
 			children = (
-				EB9679751F826EA000F1C3A6 /* StubTwitValidator.swift */,
-				EB9679791F826EC900F1C3A6 /* StubTwitIndicator.swift */,
 				EB9679771F826EB600F1C3A6 /* StubTwitExtractor.swift */,
+				EB9679791F826EC900F1C3A6 /* StubTwitIndicator.swift */,
+				EB9679751F826EA000F1C3A6 /* StubTwitValidator.swift */,
 			);
 			name = Stubs;
+			path = Stubs;
 			sourceTree = "<group>";
 		};
 		EB96795B1F82527B00F1C3A6 /* TwitSplit */ = {
@@ -204,6 +210,7 @@
 			children = (
 			);
 			name = TwitSplit;
+			path = TwitSplit;
 			sourceTree = "<group>";
 		};
 		EB9679601F82534D00F1C3A6 /* TwitSplit */ = {
@@ -212,20 +219,22 @@
 				EB9679631F82536F00F1C3A6 /* Common */,
 				EB9679621F82536400F1C3A6 /* Configuration */,
 				EB9679611F82535B00F1C3A6 /* Linked List */,
-				EB96796B1F82681C00F1C3A6 /* TwitValidator.swift */,
 				EB96796D1F82685400F1C3A6 /* TwitExtractor.swift */,
 				EB96796F1F82688A00F1C3A6 /* TwitIndicator.swift */,
+				EB96796B1F82681C00F1C3A6 /* TwitValidator.swift */,
 			);
 			name = TwitSplit;
+			path = TwitSplit;
 			sourceTree = "<group>";
 		};
 		EB9679611F82535B00F1C3A6 /* Linked List */ = {
 			isa = PBXGroup;
 			children = (
-				EB9679641F82538500F1C3A6 /* Node.swift */,
 				EB9679671F8253A900F1C3A6 /* LinkedList.swift */,
+				EB9679641F82538500F1C3A6 /* Node.swift */,
 			);
 			name = "Linked List";
+			path = "Linked List";
 			sourceTree = "<group>";
 		};
 		EB9679621F82536400F1C3A6 /* Configuration */ = {
@@ -234,15 +243,17 @@
 				EB9679691F8264D000F1C3A6 /* TwitConfiguration.swift */,
 			);
 			name = Configuration;
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 		EB9679631F82536F00F1C3A6 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				EB9679711F82692100F1C3A6 /* ValidateError.swift */,
 				EB9679731F826B4200F1C3A6 /* SplitResult.swift */,
+				EB9679711F82692100F1C3A6 /* ValidateError.swift */,
 			);
 			name = Common;
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
