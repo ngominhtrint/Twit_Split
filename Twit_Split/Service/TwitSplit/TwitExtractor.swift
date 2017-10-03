@@ -14,6 +14,16 @@ protocol TwitExtractorProtocol {
     func extract(_ message: String) -> [String]
 }
 
-struct TwitExtractor {
-
+struct TwitExtractor: TwitExtractorProtocol {
+    
+    fileprivate let configurable: TwitConfigurable
+    var characterSet: CharacterSet { return configurable.characterSet }
+    
+    init(configurable: TwitConfigurable) {
+        self.configurable = configurable
+    }
+    
+    func extract(_ message: String) -> [String] {
+        return message.components(separatedBy: characterSet)
+    }
 }

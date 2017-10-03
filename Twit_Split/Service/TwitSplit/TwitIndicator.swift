@@ -24,6 +24,11 @@ extension TwitIndicatorProtocol {
     }
 }
 
-struct TwitIndicator {
+struct TwitIndicator: TwitIndicatorProtocol {
+    var index: Int
+    var total: Int
     
+    func toString() -> String {
+        return "\(index)/\(total)"
+    }
 }

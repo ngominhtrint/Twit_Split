@@ -25,6 +25,17 @@
 		EB9679761F826EA000F1C3A6 /* StubTwitValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9679751F826EA000F1C3A6 /* StubTwitValidator.swift */; };
 		EB9679781F826EB600F1C3A6 /* StubTwitExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9679771F826EB600F1C3A6 /* StubTwitExtractor.swift */; };
 		EB96797A1F826EC900F1C3A6 /* StubTwitIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9679791F826EC900F1C3A6 /* StubTwitIndicator.swift */; };
+		EB96797C1F828E2500F1C3A6 /* DefaultTwitConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96797B1F828E2500F1C3A6 /* DefaultTwitConfiguration.swift */; };
+		EB96797E1F828EC600F1C3A6 /* WhiteSpaceTwitExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96797D1F828EC600F1C3A6 /* WhiteSpaceTwitExtractor.swift */; };
+		EB9679801F828F6700F1C3A6 /* SplashTwitIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96797F1F828F6700F1C3A6 /* SplashTwitIndicator.swift */; };
+		EB9679821F8344EB00F1C3A6 /* Array+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9679811F8344EB00F1C3A6 /* Array+Helper.swift */; };
+		EB9679841F83481500F1C3A6 /* TwitSplitProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9679831F83481500F1C3A6 /* TwitSplitProcessor.swift */; };
+		EB9679861F837DEB00F1C3A6 /* TwitBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9679851F837DEB00F1C3A6 /* TwitBuilder.swift */; };
+		EB9679881F837DFE00F1C3A6 /* TwitComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9679871F837DFE00F1C3A6 /* TwitComponent.swift */; };
+		EB96798A1F838DB600F1C3A6 /* TwitSplitProcessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9679891F838DB600F1C3A6 /* TwitSplitProcessorTests.swift */; };
+		EB96798C1F83BA4F00F1C3A6 /* TwitValidatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96798B1F83BA4F00F1C3A6 /* TwitValidatorTest.swift */; };
+		EB96798E1F83CA2C00F1C3A6 /* TwitExtractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96798D1F83CA2C00F1C3A6 /* TwitExtractorTest.swift */; };
+		EB9679901F83CCAF00F1C3A6 /* TwitComponentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96798F1F83CCAF00F1C3A6 /* TwitComponentTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +73,17 @@
 		EB9679751F826EA000F1C3A6 /* StubTwitValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubTwitValidator.swift; sourceTree = "<group>"; };
 		EB9679771F826EB600F1C3A6 /* StubTwitExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubTwitExtractor.swift; sourceTree = "<group>"; };
 		EB9679791F826EC900F1C3A6 /* StubTwitIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubTwitIndicator.swift; sourceTree = "<group>"; };
+		EB96797B1F828E2500F1C3A6 /* DefaultTwitConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTwitConfiguration.swift; sourceTree = "<group>"; };
+		EB96797D1F828EC600F1C3A6 /* WhiteSpaceTwitExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteSpaceTwitExtractor.swift; sourceTree = "<group>"; };
+		EB96797F1F828F6700F1C3A6 /* SplashTwitIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashTwitIndicator.swift; path = Stubs/SplashTwitIndicator.swift; sourceTree = "<group>"; };
+		EB9679811F8344EB00F1C3A6 /* Array+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Helper.swift"; sourceTree = "<group>"; };
+		EB9679831F83481500F1C3A6 /* TwitSplitProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitSplitProcessor.swift; sourceTree = "<group>"; };
+		EB9679851F837DEB00F1C3A6 /* TwitBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitBuilder.swift; sourceTree = "<group>"; };
+		EB9679871F837DFE00F1C3A6 /* TwitComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitComponent.swift; sourceTree = "<group>"; };
+		EB9679891F838DB600F1C3A6 /* TwitSplitProcessorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitSplitProcessorTests.swift; path = Twit_Split/Service/TwitSplit/TwitSplitProcessorTests.swift; sourceTree = SOURCE_ROOT; };
+		EB96798B1F83BA4F00F1C3A6 /* TwitValidatorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitValidatorTest.swift; path = Twit_Split/Service/TwitSplit/TwitValidatorTest.swift; sourceTree = SOURCE_ROOT; };
+		EB96798D1F83CA2C00F1C3A6 /* TwitExtractorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitExtractorTest.swift; path = Twit_Split/Service/TwitSplit/TwitExtractorTest.swift; sourceTree = SOURCE_ROOT; };
+		EB96798F1F83CCAF00F1C3A6 /* TwitComponentTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitComponentTest.swift; path = Twit_Split/Service/TwitSplit/TwitComponentTest.swift; sourceTree = SOURCE_ROOT; };
 		F8A14E866DFDE8B4005E7BF5 /* Pods_Twit_SplitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twit_SplitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -155,7 +177,6 @@
 			children = (
 				EB96795C1F8252AB00F1C3A6 /* String+Trim.swift */,
 			);
-			name = Extension;
 			path = Extension;
 			sourceTree = "<group>";
 		};
@@ -164,7 +185,6 @@
 			children = (
 				EB9679601F82534D00F1C3A6 /* TwitSplit */,
 			);
-			name = Service;
 			path = Service;
 			sourceTree = "<group>";
 		};
@@ -173,7 +193,6 @@
 			children = (
 				EB96795E1F82530700F1C3A6 /* TwitObj.swift */,
 			);
-			name = Objects;
 			path = Objects;
 			sourceTree = "<group>";
 		};
@@ -181,7 +200,6 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = ViewModels;
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
@@ -189,8 +207,11 @@
 			isa = PBXGroup;
 			children = (
 				EB96795A1F82526E00F1C3A6 /* Stubs */,
+				EB96797B1F828E2500F1C3A6 /* DefaultTwitConfiguration.swift */,
+				EB96797D1F828EC600F1C3A6 /* WhiteSpaceTwitExtractor.swift */,
+				EB96797F1F828F6700F1C3A6 /* SplashTwitIndicator.swift */,
+				EB9679811F8344EB00F1C3A6 /* Array+Helper.swift */,
 			);
-			name = Helper;
 			path = Helper;
 			sourceTree = "<group>";
 		};
@@ -201,15 +222,17 @@
 				EB9679791F826EC900F1C3A6 /* StubTwitIndicator.swift */,
 				EB9679751F826EA000F1C3A6 /* StubTwitValidator.swift */,
 			);
-			name = Stubs;
 			path = Stubs;
 			sourceTree = "<group>";
 		};
 		EB96795B1F82527B00F1C3A6 /* TwitSplit */ = {
 			isa = PBXGroup;
 			children = (
+				EB9679891F838DB600F1C3A6 /* TwitSplitProcessorTests.swift */,
+				EB96798B1F83BA4F00F1C3A6 /* TwitValidatorTest.swift */,
+				EB96798D1F83CA2C00F1C3A6 /* TwitExtractorTest.swift */,
+				EB96798F1F83CCAF00F1C3A6 /* TwitComponentTest.swift */,
 			);
-			name = TwitSplit;
 			path = TwitSplit;
 			sourceTree = "<group>";
 		};
@@ -219,11 +242,13 @@
 				EB9679631F82536F00F1C3A6 /* Common */,
 				EB9679621F82536400F1C3A6 /* Configuration */,
 				EB9679611F82535B00F1C3A6 /* Linked List */,
+				EB9679831F83481500F1C3A6 /* TwitSplitProcessor.swift */,
 				EB96796D1F82685400F1C3A6 /* TwitExtractor.swift */,
 				EB96796F1F82688A00F1C3A6 /* TwitIndicator.swift */,
 				EB96796B1F82681C00F1C3A6 /* TwitValidator.swift */,
+				EB9679851F837DEB00F1C3A6 /* TwitBuilder.swift */,
+				EB9679871F837DFE00F1C3A6 /* TwitComponent.swift */,
 			);
-			name = TwitSplit;
 			path = TwitSplit;
 			sourceTree = "<group>";
 		};
@@ -233,7 +258,6 @@
 				EB9679671F8253A900F1C3A6 /* LinkedList.swift */,
 				EB9679641F82538500F1C3A6 /* Node.swift */,
 			);
-			name = "Linked List";
 			path = "Linked List";
 			sourceTree = "<group>";
 		};
@@ -242,7 +266,6 @@
 			children = (
 				EB9679691F8264D000F1C3A6 /* TwitConfiguration.swift */,
 			);
-			name = Configuration;
 			path = Configuration;
 			sourceTree = "<group>";
 		};
@@ -252,7 +275,6 @@
 				EB9679731F826B4200F1C3A6 /* SplitResult.swift */,
 				EB9679711F82692100F1C3A6 /* ValidateError.swift */,
 			);
-			name = Common;
 			path = Common;
 			sourceTree = "<group>";
 		};
@@ -460,6 +482,9 @@
 				EB96796A1F8264D000F1C3A6 /* TwitConfiguration.swift in Sources */,
 				EB9679681F8253A900F1C3A6 /* LinkedList.swift in Sources */,
 				EB96795F1F82530700F1C3A6 /* TwitObj.swift in Sources */,
+				EB9679841F83481500F1C3A6 /* TwitSplitProcessor.swift in Sources */,
+				EB9679861F837DEB00F1C3A6 /* TwitBuilder.swift in Sources */,
+				EB9679881F837DFE00F1C3A6 /* TwitComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,10 +492,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9679801F828F6700F1C3A6 /* SplashTwitIndicator.swift in Sources */,
 				EB9679761F826EA000F1C3A6 /* StubTwitValidator.swift in Sources */,
+				EB96798E1F83CA2C00F1C3A6 /* TwitExtractorTest.swift in Sources */,
+				EB96797C1F828E2500F1C3A6 /* DefaultTwitConfiguration.swift in Sources */,
 				EB96797A1F826EC900F1C3A6 /* StubTwitIndicator.swift in Sources */,
 				EB96794A1F8250DE00F1C3A6 /* Twit_SplitTests.swift in Sources */,
 				EB9679781F826EB600F1C3A6 /* StubTwitExtractor.swift in Sources */,
+				EB96798C1F83BA4F00F1C3A6 /* TwitValidatorTest.swift in Sources */,
+				EB96798A1F838DB600F1C3A6 /* TwitSplitProcessorTests.swift in Sources */,
+				EB9679901F83CCAF00F1C3A6 /* TwitComponentTest.swift in Sources */,
+				EB96797E1F828EC600F1C3A6 /* WhiteSpaceTwitExtractor.swift in Sources */,
+				EB9679821F8344EB00F1C3A6 /* Array+Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

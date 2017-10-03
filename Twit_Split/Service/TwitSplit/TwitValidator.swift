@@ -14,6 +14,21 @@ protocol TwitValidateProtocol {
     func validateWordOverMaximumLength(_ words: [String], max: Int) -> ValidateError?
 }
 
-struct TwitValidator {
+struct TwitValidator: TwitValidateProtocol {
     
+    func validateEmptyMessage(_ message: String) -> ValidateError? {
+        if message.isEmpty {
+            return .invalid
+        }
+        
+        return nil
+    }
+    
+    func validateWordOverMaximumLength(_ words: [String], max: Int) -> ValidateError? {
+        guard words.first(where: { $0.characters.count > max }) == nil else {
+            return .wordLength
+        }
+        
+        return nil
+    }
 }
